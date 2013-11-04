@@ -1,9 +1,9 @@
 <?php
+echo $con;
 include("config.php");
 $username = htmlspecialchars_decode(htmlspecialchars($_POST['username']));
-echo $username;
+
 $password = md5(htmlspecialchars_decode(htmlspecialchars($_POST['password'])));
-echo $password;
 $sql = ("SELECT * FROM users WHERE username= '".$username."' AND password = '".$password."';");
 echo $sql;
 $query = mysql_query($sql);

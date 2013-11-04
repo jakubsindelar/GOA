@@ -1,4 +1,6 @@
 <?php
+if($_POST['action'] == "login")
+{include("logining.php");}
 if($_COOKIE["user"] != "admin")
 {
 if(!isset($_GET['link']))
