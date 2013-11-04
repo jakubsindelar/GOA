@@ -1,51 +1,58 @@
 <?php
 if($_POST['action'] == "login")
 {include("logining.php");}
+elseif($_GET['action'] == "logout")
+{
+$expire=time()-60*10;
+setcookie("user", "admin", $expire);
+?><meta http-equiv="refresh" content="0;url=./"><?php
+}
+
 if($_COOKIE["user"] != "admin")
 {
 if(!isset($_GET['link']))
-{include("php/uvod.php");}
+{include("../uvod.php");}
 elseif($_GET['link'] == classroom)
-{include("php/trida.php");}
+{include("../trida.php");}
 elseif($_GET['link'] == contacts)
-{include("php/kontakty.php");}
+{include("../kontakty.php");}
 elseif($_GET['link'] == book)
-{include("php/kronika.php");}
+{include("./kronika.php");}
 elseif($_GET['link'] == homeworks)
-{include("php/homeworks.php");}
+{include("./homeworks.php");}
 elseif($_GET['link'] == notes)
-{include("php/vypisky.php");}
+{include("./vypisky.php");}
 elseif($_GET['link'] == tests)
-{include("php/testy.php");}
+{include("./testy.php");}
 elseif($_GET['link'] == timelists)
-{include("php/termin_charter.php");}
+{include("./termin_charter.php");}
 elseif($_GET['link'] == timetable)
-{include("php/rozvrh.php");}
+{include("./rozvrh.php");}
 elseif($_GET['link'] == suplovani)
-{include("php/suplovani.php");}
+{include("./suplovani.php");}
 elseif($_GET['link'] == administrace)
 {include("login.php");}
 }
 elseif($_COOKIE["user"] == "admin")
 {
 if($_GET['link'] == classroom)
-{include("php/trida.php");}
+{include("../trida.php");}
 elseif($_GET['link'] == contacts)
-{include("php/kontakty.php");}
+{include("../kontakty.php");}
 elseif($_GET['link'] == book)
-{include("php/kronika.php");}
+{include("../kronika.php");}
 elseif($_GET['link'] == homeworks)
-{include("php/homeworks.php");}
+{include("./homeworks.php");}
 elseif($_GET['link'] == notes)
-{include("php/vypisky.php");}
+{include("./vypisky.php");}
 elseif($_GET['link'] == tests)
-{include("php/testy.php");}
+{include("./testy.php");}
 elseif($_GET['link'] == timelists)
-{include("php/termin_charter.php");}
+{include("./termin_charter.php");}
 elseif($_GET['link'] == timetable)
-{include("php/rozvrh.php");}
+{include("./rozvrh.php");}
 elseif($_GET['link'] == suplovani)
-{include("php/suplovani.php");}
+{include("./suplovani.php");}
 elseif($_GET['link'] == administrace)
 {include("./login.php");}
 elseif($_GET['admin'] == kronika) {include("administrace/kronika/main.php");}

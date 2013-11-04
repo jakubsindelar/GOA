@@ -33,5 +33,5 @@ Testy<br>
 Suplování
 <br>
 <br>
-<a href="./logout.php">Odhlásit</a>
+<a href="index.php?action=logout">Odhlásit</a>
 <?php }?>
