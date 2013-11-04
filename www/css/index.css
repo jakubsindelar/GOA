@@ -1,0 +1,83 @@
+/*Pro vše*/
+* {
+margin:0; /*vnější odsazení*/
+padding:0;/*vnitřní odsazení*/
+}
+
+html,body {
+height:100%;
+width:100%;
+font-size:11pt;
+text-align: center; /* _____ <- IE6 vycentruje obsah (#obal) */
+background-color:#0000A0;
+color:white;
+font-family:arial;
+}
+#body {
+position: relative;
+top:10px;
+width: 810px;
+
+/* !!!!
+margin: 20px auto 0 auto; >>> nemůžeš nastavit výšku 100% a ještě přidat horní okraj 20px -> výška obalu přesáhne výšku okna
+*/
+margin: 0 auto;
+text-align: left;
+height: 100%; /*____________ <- IE6 nastaví min-height tímto způsobem */
+min-height: 100%; /*________ <- protože tomuto nerozumí */
+}
+body>#body {height: auto} /* <- jiné než IE6 nesmí mít 100%height */
+ 
+ /*zápatí*/
+#zapati {
+position:absolute;
+left:0;
+width:100%;
+height:40px;
+bottom: 0;
+text-align:center;
+border-top-style:solid;
+border-top-color:white;
+}
+
+#sloupec-l
+{
+text-align:left;
+width: 200px;
+display:inline-block;
+}
+
+#sloupec-r
+{
+width:600px;
+display:inline-block;
+border:none;
+min-height:100%;
+vertical-align:top;
+text-align:center;
+border-left-style:solid;
+border-left-color:white;
+}
+
+/*odkazy*/
+a:link {color: white;}
+ a:visited {color: white}
+ a:active {color: white}
+ a:hover {background-color: #CC3300;}
+/*Header*/
+header
+{
+margin:0 auto;
+text-align:center;
+border-bottom-style:solid;
+border-bottom-color:white;
+font-size:20pt;
+}
+/*menu odrážky*/
+#skola-seznam
+{
+margin:0px;
+}
+li{
+  margin-left:25px;
+  }
