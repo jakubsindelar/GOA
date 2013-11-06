@@ -8,6 +8,7 @@ setcookie("user", "admin", $expire);
 ?><meta http-equiv="refresh" content="0;url=./"><?php
 }
 
+
 if($_COOKIE["user"] != "admin")
 {
 if(!isset($_GET['link']))
@@ -15,7 +16,7 @@ if(!isset($_GET['link']))
 elseif($_GET['link'] == classroom)
 {include("../trida.php");}
 elseif($_GET['link'] == contacts)
-{include("../kontakty.php");}
+{include("../scripts/kontakty.php");}
 elseif($_GET['link'] == book)
 {include("./kronika.php");}
 elseif($_GET['link'] == homeworks)
@@ -38,7 +39,7 @@ elseif($_COOKIE["user"] == "admin")
 if($_GET['link'] == classroom)
 {include("../trida.php");}
 elseif($_GET['link'] == contacts)
-{include("../kontakty.php");}
+{include("../scripts/kontakty.php");}
 elseif($_GET['link'] == book)
 {include("../kronika.php");}
 elseif($_GET['link'] == homeworks)
