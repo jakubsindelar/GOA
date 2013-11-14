@@ -1,0 +1,42 @@
+/*kontakty*/
+#contacts_pole
+{
+-webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-topright: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+background-color:#000080;
+border-style:solid;
+width:280px;
+height: 100px;
+display:inline-block;
+}
+
+.off
+{
+border-style:solid;
+border-color:red;
+}
+.class_mate
+{
+border-style:solid;
+border-color:#000080;
+}
+#space
+{
+width:10px;
+display:inline-block;
+}
+#udaje
+{
+text-align:left;
+width: 250px;
+margin: 0 auto;
+}
+#contacts
+{
+margin: 0 auto;
+text-align:center;
+}
