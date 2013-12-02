@@ -1,7 +1,6 @@
 <a>Třída</a><br>
 <a href="./gallery">Fotogalerie</a><br>
 <a href="?link=contacts">Kontakty</a><br>
-<a href="?link=book">Třídní kronika</a><br>
 Škola
 <ul id="skola-seznam">
 <li><a href="?link=homeworks">Domácí úkoly</a></li>
@@ -26,7 +25,7 @@
 Administrace
 <hr>
 <br>
-<a href="?admin=kronika">Kronika</a><br>
+
 <a href="?admin=homeworks">Domácí úkoly</a><br>
 Výpisky<br>
 Testy<br>

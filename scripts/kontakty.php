@@ -1,25 +1,15 @@
 
 <h1>Kontakty</h1>
-      
-      <div id="contacts_main">
-           <span id="contacts_pole" class="off" alt="Již nejsou žáky">
-           
-           Dominika Drtinová
-              <ul id="udaje">
-                  <li>
-                  Email:&nbsp;drtinova.d@seznam.cz
-                  </li>
-                  
-                  <li>
-                  Skype:&nbsp;domcaskejtacka
-                  </li>
-              </ul>
-           
-           </span>
+<div id="contacts_main">
+<span id="contacts_pole" class="off" alt="Již nejsou žáky">
+Dominika Drtinová
+<ul id="udaje">
+<li>Email:&nbsp;drtinova.d@seznam.cz</li>
+<li>Skype:&nbsp;domcaskejtacka</li>
+</ul>
+</span>
 
-                  <div id="space">
-                  &nbsp;
-                  </div>
+<div id="space">&nbsp;</div>
 
 <span id="contacts_pole" class="off" alt="Již nejsou žáky">
 David Gril
@@ -31,7 +21,7 @@ David Gril
 
 <div id="vert_space">&nbsp;</div>
 
-<span id="contacts_pole" class="class_mate">
+<span id="contacts_pole" class="off" alt="Již nejsou žáky">
 Jan Janík
 <ul id="udaje">
 <li>Email:&nbsp;janik43@seznam.cz</li>
@@ -110,5 +100,8 @@ Adam Šírek
 <li>Skype:&nbsp;skyppy20001</li>
 </ul>
 </span>
-      
-      </div>
+
+</div>
+</br>
+</br>
+</br>
