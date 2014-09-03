@@ -40,3 +40,10 @@ gem 'spring',        group: :development
 
 gem "execjs"
 gem "therubyracer"
+gem 'font-awesome-sass'
+gem 'bootstrap-sass', '~> 3.1.1'
+gem 'capistrano', group: :development
+gem 'capistrano-rails', group: :development
+gem 'capistrano-rvm', group: :development
+gem 'bootstrap-glyphicons'
+
