@@ -10606,3 +10606,318 @@ Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 19:17:4
 
 
 Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 19:17:42 +0200
+
+
+Started GET "/teachers" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+Processing by TeachersController#index as HTML
+  [1m[35mTeacher Load (1.6ms)[0m  SELECT "teachers".* FROM "teachers"
+  Rendered teachers/index.html.erb within layouts/application (27.6ms)
+  Rendered layouts/_sidebar.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 342ms (Views: 329.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 20:30:50 +0200
+
+
+Started GET "/teachers" for 192.168.169.1 at 2014-09-04 20:35:51 +0200
+Processing by TeachersController#index as HTML
+  [1m[36mTeacher Load (0.9ms)[0m  [1mSELECT "teachers".* FROM "teachers"[0m
+  Rendered teachers/index.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_sidebar.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 184ms (Views: 180.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 20:35:52 +0200
+
+
+Started GET "/teachers" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+Processing by TeachersController#index as HTML
+  [1m[35mTeacher Load (1.0ms)[0m  SELECT "teachers".* FROM "teachers"
+  Rendered teachers/index.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_sidebar.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 172ms (Views: 166.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:52 +0200
+
+
+Started GET "/teachers" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+Processing by TeachersController#index as HTML
+  [1m[36mTeacher Load (0.9ms)[0m  [1mSELECT "teachers".* FROM "teachers"[0m
+  Rendered teachers/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_sidebar.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 158ms (Views: 154.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 20:39:54 +0200
+
+
+Started GET "/teachers" for 192.168.169.1 at 2014-09-04 20:40:19 +0200
+Processing by TeachersController#index as HTML
+  [1m[35mTeacher Load (0.9ms)[0m  SELECT "teachers".* FROM "teachers"
+  Rendered teachers/index.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_sidebar.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 141ms (Views: 138.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:19 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:19 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:19 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:19 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:19 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:20 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:20 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:20 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:20 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:20 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:20 +0200
+
+
+Started GET "/teachers" for 192.168.169.1 at 2014-09-04 20:40:36 +0200
+Processing by TeachersController#index as HTML
+  [1m[36mTeacher Load (1.0ms)[0m  [1mSELECT "teachers".* FROM "teachers"[0m
+  Rendered teachers/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_sidebar.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 143ms (Views: 140.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 20:40:37 +0200
+
+
+Started GET "/teachers/new" for 192.168.169.1 at 2014-09-04 20:43:37 +0200
+Processing by TeachersController#new as HTML
+  Rendered teachers/_form.html.erb (5.6ms)
+  Rendered teachers/new.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_sidebar.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 137ms (Views: 132.5ms | ActiveRecord: 0.0ms)

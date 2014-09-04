@@ -1,24 +1,24 @@
 <h1>Přehled učitelů</h1>
 
-<table>
+<table id= "pubs" class="table table-bordered" style="max-width:60%; color:white">
   <thead>
     <tr>
-      <th>Jméno</th>
-      <th>Příjmení</th>
-      <th>Titul</th>
-      <th colspan="3"></th>
+      <th class="col-md-3">Titul</th>
+      <th class="col-md-3">Jméno</th>
+      <th class="col-md-3">Příjmení</th>
+      <th class="col-md-3" colspan="3">Možnosti</th>
     </tr>
   </thead>
 
   <tbody>
     <% @teachers.each do |teacher| %>
       <tr>
-        <td><%= teacher.name %></td>
-        <td><%= teacher.surname %></td>
-        <td><%= teacher.title %></td>
-        <td><%= link_to 'Zobrazit', teacher %></td>
-        <td><%= link_to 'Editovat', edit_teacher_path(teacher) %></td>
-        <td><%= link_to 'Smazat', teacher, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
+        <td class="col-md-3"><%= teacher.title %></td>
+        <td class="col-md-3"><%= teacher.name %></td>
+        <td class="col-md-3"><%= teacher.surname %></td>
+        <td class="col-md-1"><%= link_to 'Zobrazit', teacher %></td>
+        <td class="col-md-1"><%= link_to 'Editovat', edit_teacher_path(teacher) %></td>
+        <td class="col-md-1"><%= link_to 'Smazat', teacher, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
       </tr>
     <% end %>
   </tbody>
