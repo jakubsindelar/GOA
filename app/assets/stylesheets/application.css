@@ -26,3 +26,4 @@ header>ul { display: block; height: 10px;}
 header>ul>li { display: inline-block; padding: 0px 15px 0px 0px; } /*up,right,down,left*/
 footer { text-align: center; margin: 15px auto; position: absolute; bottom: 5px; }
 h1#index {font-size: 25pt; }
+.field {color: black;}
