@@ -10921,3 +10921,598 @@ Processing by TeachersController#new as HTML
   Rendered layouts/_sidebar.html.erb (1.4ms)
   Rendered layouts/_footer.html.erb (0.3ms)
 Completed 200 OK in 137ms (Views: 132.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/teachers" for 192.168.169.1 at 2014-09-04 20:56:52 +0200
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.0) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.0) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTests (20140904185035)
+  [1m[35m (1.3ms)[0m  begin transaction
+  [1m[36m (2.3ms)[0m  [1mCREATE TABLE "tests" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "subject_id" integer, "start_date" date, "note" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140904185035"]]
+  [1m[36m (3.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.8ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/teachers" for 192.168.169.1 at 2014-09-04 20:57:21 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (3.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TeachersController#index as HTML
+  [1m[35mTeacher Load (1.0ms)[0m  SELECT "teachers".* FROM "teachers"
+  Rendered teachers/index.html.erb within layouts/application (21.2ms)
+  Rendered layouts/_sidebar.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 1130ms (Views: 1106.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/tests.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/tests.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:22 +0200
+
+
+Started GET "/tests" for 192.168.169.1 at 2014-09-04 20:57:28 +0200
+Processing by TestsController#index as HTML
+  [1m[36mTest Load (0.8ms)[0m  [1mSELECT "tests".* FROM "tests"[0m
+  Rendered tests/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_sidebar.html.erb (4.3ms)
+  Rendered layouts/_footer.html.erb (3.6ms)
+Completed 200 OK in 170ms (Views: 163.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tests/new" for 192.168.169.1 at 2014-09-04 20:57:32 +0200
+Processing by TestsController#new as HTML
+  [1m[35mTest Load (0.7ms)[0m  SELECT "tests".* FROM "tests"
+  Rendered tests/_form.html.erb (58.5ms)
+  Rendered tests/new.html.erb within layouts/application (65.3ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 207ms (Views: 200.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/tests/new" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+Processing by TestsController#new as HTML
+  [1m[36mTest Load (0.7ms)[0m  [1mSELECT "tests".* FROM "tests"[0m
+  Rendered tests/_form.html.erb (19.9ms)
+  Rendered tests/new.html.erb within layouts/application (30.5ms)
+  Rendered layouts/_sidebar.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 170ms (Views: 167.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 20:57:59 +0200
+
+
+Started GET "/tests/new" for 192.168.169.1 at 2014-09-04 20:59:56 +0200
+Processing by TestsController#new as HTML
+  [1m[35mTest Load (0.6ms)[0m  SELECT "tests".* FROM "tests"
+  Rendered tests/_form.html.erb (10.5ms)
+  Rendered tests/new.html.erb within layouts/application (17.8ms)
+  Rendered layouts/_sidebar.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 170ms (Views: 164.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 20:59:56 +0200
+
+
+Started GET "/assets/tests.css?body=1" for 192.168.169.1 at 2014-09-04 20:59:56 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 20:59:56 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 20:59:56 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 20:59:56 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 20:59:56 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 20:59:57 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 20:59:57 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 20:59:57 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 20:59:57 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 20:59:57 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 20:59:57 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 20:59:57 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 20:59:57 +0200
+
+
+Started GET "/assets/tests.js?body=1" for 192.168.169.1 at 2014-09-04 20:59:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 20:59:57 +0200
+
+
+Started GET "/subjects" for 192.168.169.1 at 2014-09-04 21:00:11 +0200
+Processing by SubjectsController#index as HTML
+  [1m[36mSubject Load (0.7ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mTeacher Load (1.5ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered subjects/index.html.erb within layouts/application (49.3ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 198ms (Views: 187.0ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/subjects/new" for 192.168.169.1 at 2014-09-04 21:00:17 +0200
+Processing by SubjectsController#new as HTML
+  [1m[36mTeacher Load (1.0ms)[0m  [1mSELECT "teachers".* FROM "teachers"[0m
+  Rendered subjects/_form.html.erb (10.3ms)
+  Rendered subjects/new.html.erb within layouts/application (17.2ms)
+  Rendered layouts/_sidebar.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 156ms (Views: 152.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/subjects" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+Processing by SubjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P/KLH9Qw47Qj2eOreZZ1HJ4502zVGMg8Ksk71IYVP3U=", "subject"=>{"name"=>"Matika", "teacher_id"=>"11", "classroom"=>""}, "commit"=>"Odeslat"}
+  [1m[35m (0.6ms)[0m  begin transaction
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "subjects" ("created_at", "name", "teacher_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2014-09-04 19:00:25.413976"], ["name", "Matika"], ["teacher_id", 11], ["updated_at", "2014-09-04 19:00:25.413976"]]
+  [1m[35m (100.7ms)[0m  commit transaction
+Redirected to http://dev:3000/subjects/3
+Completed 302 Found in 134ms (ActiveRecord: 102.5ms)
+
+
+Started GET "/subjects/3" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mSubject Load (1.5ms)[0m  [1mSELECT  "subjects".* FROM "subjects"  WHERE "subjects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mTeacher Load (0.5ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered subjects/show.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_sidebar.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 171ms (Views: 158.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/tests.css?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 21:00:25 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 21:00:26 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 21:00:26 +0200
+
+
+Started GET "/assets/tests.js?body=1" for 192.168.169.1 at 2014-09-04 21:00:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 21:00:26 +0200
+
+
+Started GET "/subjects" for 192.168.169.1 at 2014-09-04 21:00:28 +0200
+Processing by SubjectsController#index as HTML
+  [1m[36mSubject Load (0.7ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35mTeacher Load (0.6ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mTeacher Load (0.4ms)[0m  [1mSELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = ? LIMIT 1[0m  [["id", 11]]
+  Rendered subjects/index.html.erb within layouts/application (15.4ms)
+  Rendered layouts/_sidebar.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 152ms (Views: 148.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/tests" for 192.168.169.1 at 2014-09-04 21:00:32 +0200
+Processing by TestsController#index as HTML
+  [1m[35mTest Load (0.7ms)[0m  SELECT "tests".* FROM "tests"
+  Rendered tests/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 150ms (Views: 142.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tests" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+Processing by TestsController#index as HTML
+  [1m[36mTest Load (0.7ms)[0m  [1mSELECT "tests".* FROM "tests"[0m
+  Rendered tests/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_sidebar.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 164ms (Views: 160.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/tests.css?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 21:01:31 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 21:01:32 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 21:01:32 +0200
+
+
+Started GET "/assets/tests.js?body=1" for 192.168.169.1 at 2014-09-04 21:01:32 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 21:01:32 +0200
+
+
+Started GET "/tests/new" for 192.168.169.1 at 2014-09-04 21:01:35 +0200
+Processing by TestsController#new as HTML
+  [1m[35mSubject Load (0.5ms)[0m  SELECT "subjects".* FROM "subjects"
+  Rendered tests/_form.html.erb (25.9ms)
+  Rendered tests/new.html.erb within layouts/application (34.7ms)
+Completed 500 Internal Server Error in 41ms
+
+ActionView::Template::Error (undefined local variable or method `subject' for #<#<Class:0x000000053696d8>:0x0000000585acf0>):
+    17:   </div>
+    18:   <div class="field">
+    19:     <%= f.label :subject_id %><br>
+    20:     <%= f.select :subject_id, options_for_select(Subject.all.collect{|test| ["#{subject.name}", subject.id]}, @test.subject_id), include_blank: true %>
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :start_date %><br>
+  app/views/tests/_form.html.erb:20:in `block (2 levels) in _app_views_tests__form_html_erb__485665451791881770_46293160'
+  app/views/tests/_form.html.erb:20:in `block in _app_views_tests__form_html_erb__485665451791881770_46293160'
+  app/views/tests/_form.html.erb:1:in `_app_views_tests__form_html_erb__485665451791881770_46293160'
+  app/views/tests/new.html.erb:3:in `_app_views_tests_new_html_erb__416151820675508534_41559560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.2ms)
+
+
+Started GET "/tests/new" for 192.168.169.1 at 2014-09-04 21:01:35 +0200
+Processing by TestsController#new as HTML
+  [1m[36mSubject Load (0.6ms)[0m  [1mSELECT "subjects".* FROM "subjects"[0m
+  Rendered tests/_form.html.erb (22.0ms)
+  Rendered tests/new.html.erb within layouts/application (26.0ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (undefined local variable or method `subject' for #<#<Class:0x000000053696d8>:0x000000053da9c8>):
+    17:   </div>
+    18:   <div class="field">
+    19:     <%= f.label :subject_id %><br>
+    20:     <%= f.select :subject_id, options_for_select(Subject.all.collect{|test| ["#{subject.name}", subject.id]}, @test.subject_id), include_blank: true %>
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :start_date %><br>
+  app/views/tests/_form.html.erb:20:in `block (2 levels) in _app_views_tests__form_html_erb__485665451791881770_43941820'
+  app/views/tests/_form.html.erb:20:in `block in _app_views_tests__form_html_erb__485665451791881770_43941820'
+  app/views/tests/_form.html.erb:1:in `_app_views_tests__form_html_erb__485665451791881770_43941820'
+  app/views/tests/new.html.erb:3:in `_app_views_tests_new_html_erb__416151820675508534_16673040'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.8ms)
+
+
+Started GET "/tests/new" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+Processing by TestsController#new as HTML
+  [1m[35mSubject Load (0.6ms)[0m  SELECT "subjects".* FROM "subjects"
+  Rendered tests/_form.html.erb (29.5ms)
+  Rendered tests/new.html.erb within layouts/application (38.5ms)
+  Rendered layouts/_sidebar.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 224ms (Views: 212.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/tests.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/tests.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:15 +0200
+
+
+Started POST "/tests" for 192.168.169.1 at 2014-09-04 21:08:48 +0200
+Processing by TestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P/KLH9Qw47Qj2eOreZZ1HJ4502zVGMg8Ksk71IYVP3U=", "test"=>{"name"=>"Čtvrtletní písemná práce", "subject_id"=>"3", "start_date(1i)"=>"2013", "start_date(2i)"=>"5", "start_date(3i)"=>"13", "note"=>""}, "commit"=>"Create Test"}
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "tests" ("created_at", "name", "note", "start_date", "subject_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-09-04 19:08:48.602993"], ["name", "Čtvrtletní písemná práce"], ["note", ""], ["start_date", "2013-05-13"], ["subject_id", 3], ["updated_at", "2014-09-04 19:08:48.602993"]]
+  [1m[36m (115.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://dev:3000/tests/1
+Completed 302 Found in 150ms (ActiveRecord: 117.6ms)
+
+
+Started GET "/tests/1" for 192.168.169.1 at 2014-09-04 21:08:48 +0200
+Processing by TestsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTest Load (0.8ms)[0m  SELECT  "tests".* FROM "tests"  WHERE "tests"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tests/show.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_sidebar.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (1.6ms)
+Completed 200 OK in 154ms (Views: 147.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/tests.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/teachers.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/subjects.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/subjects.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/teachers.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/tests.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 21:08:49 +0200
+
+
+Started GET "/tests" for 192.168.169.1 at 2014-09-04 21:08:51 +0200
+Processing by TestsController#index as HTML
+  [1m[36mTest Load (0.7ms)[0m  [1mSELECT "tests".* FROM "tests"[0m
+  Rendered tests/index.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 142ms (Views: 139.6ms | ActiveRecord: 0.7ms)
