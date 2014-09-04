@@ -1,11 +1,11 @@
-<h1>Listing subjects</h1>
+<h1>Přehled předmětů</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Teacher</th>
-      <th>Classroom</th>
+      <th>Předmět</th>
+      <th>Vyučující</th>
+      <th>Učebna</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,9 +16,9 @@
         <td><%= subject.name %></td>
         <td><%= "#{subject.teacher.name} #{subject.teacher.surname}" %></td>
         <td><%= subject.classroom %></td>
-        <td><%= link_to 'Show', subject %></td>
-        <td><%= link_to 'Edit', edit_subject_path(subject) %></td>
-        <td><%= link_to 'Destroy', subject, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Zobrazit', subject %></td>
+        <td><%= link_to 'Editovat', edit_subject_path(subject) %></td>
+        <td><%= link_to 'Smazat', subject, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Subject', new_subject_path %>
+<%= link_to 'Přidat nový předmět', new_subject_path %>

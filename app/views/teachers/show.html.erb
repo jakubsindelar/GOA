@@ -1,19 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Jméno:</strong>
   <%= @teacher.name %>
 </p>
 
 <p>
-  <strong>Surname:</strong>
+  <strong>Příjmení:</strong>
   <%= @teacher.surname %>
 </p>
 
 <p>
-  <strong>Title:</strong>
+  <strong>Titul:</strong>
   <%= @teacher.title %>
 </p>
 
-<%= link_to 'Edit', edit_teacher_path(@teacher) %> |
-<%= link_to 'Back', teachers_path %>
+<%= link_to 'Editovat', edit_teacher_path(@teacher) %> |
+<%= link_to 'Smazat', teachers_path %>

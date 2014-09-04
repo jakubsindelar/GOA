@@ -1,19 +1,19 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Předmět:</strong>
   <%= @subject.name %>
 </p>
 
 <p>
-  <strong>Teacher:</strong>
+  <strong>Učitel:</strong>
   <%= "#{@subject.teacher.name} #{@subject.teacher.surname}" %>
 </p>
 
 <p>
-  <strong>Classroom:</strong>
+  <strong>Učebna:</strong>
   <%= @subject.classroom %>
 </p>
 
-<%= link_to 'Edit', edit_subject_path(@subject) %> |
-<%= link_to 'Back', subjects_path %>
+<%= link_to 'Editovat', edit_subject_path(@subject) %> |
+<%= link_to 'Zpět', subjects_path %>
