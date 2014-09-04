@@ -14,8 +14,22 @@
     <META name="author" content="Jakub Šindelář" />
 </head>
 <body>
-
-<%= yield %>
-
+ <div class="container">
+        <header class="row">
+            <h1 id="index">
+            Třída obchodní akademie
+            </h1>
+        </header>
+        <div class="row">
+        <div class="col-md-2">
+          <%=  render 'layouts/sidebar' %>
+             </div>
+            <div class="col-md-10">
+        <%= yield %>
+        </div>
+        </div>
+        <footer class="row"><%= render 'layouts/footer' %></footer>
+    </div>
+</body>
 </body>
 </html>

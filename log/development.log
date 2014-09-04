@@ -5879,3 +5879,589 @@ Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:20:37 +0
 
 
 Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:20:37 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:27:50 +0200
+Processing by HomeController#index as HTML
+  Rendered layouts/_sidebar.html.erb (1.8ms)
+  Rendered layouts/_view.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 256ms (Views: 254.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:27:50 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:27:50 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:27:50 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:27:50 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:27:50 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:27:50 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:27:50 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:27:50 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:27:50 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:28:35 +0200
+Processing by HomeController#index as HTML
+  Rendered layouts/_sidebar.html.erb (1.5ms)
+  Rendered layouts/_view.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 107ms (Views: 104.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:28:35 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:28:35 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:28:35 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:28:35 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:28:35 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:28:35 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:28:35 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:28:35 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:28:35 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:29:04 +0200
+Processing by HomeController#index as HTML
+  Rendered layouts/_sidebar.html.erb (1.6ms)
+  Rendered layouts/_view.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 98ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:29:04 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:29:04 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:29:04 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:29:04 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:29:04 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:29:04 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:29:04 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:29:04 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:29:04 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:29:45 +0200
+Processing by HomeController#index as HTML
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_view.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 105ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:29:45 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:29:45 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:29:46 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:29:46 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:29:46 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:29:46 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:29:46 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:29:46 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:29:46 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:30:17 +0200
+Processing by HomeController#index as HTML
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_view.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 93ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:30:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:30:18 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:30:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:30:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:30:18 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:30:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:30:18 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:30:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:30:18 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:30:48 +0200
+Processing by HomeController#index as HTML
+  Rendered layouts/_sidebar.html.erb (1.8ms)
+  Rendered layouts/_view.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 93ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:30:48 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:30:48 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:30:48 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:30:49 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:30:49 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:30:49 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:30:49 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:30:49 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:30:49 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:34:23 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_sidebar.html.erb (1.6ms)
+Completed 500 Internal Server Error in 117ms
+
+ActionView::Template::Error (Missing partial layouts/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/root/dev/GOA/app/views"
+):
+    28:         <%= yield %>
+    29:         </div>
+    30:         </div>
+    31:         <footer class="row"><%= render 'layouts/footer' %></footer>
+    32:     </div>
+    33: </body>
+    34: </body>
+  app/views/layouts/application.html.erb:31:in `_app_views_layouts_application_html_erb___3114612643729697456_31577340'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.7ms)
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:35:02 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_sidebar.html.erb (1.2ms)
+Completed 500 Internal Server Error in 99ms
+
+ActionView::Template::Error (Missing partial layouts/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/root/dev/GOA/app/views"
+):
+    28:         <%= yield %>
+    29:         </div>
+    30:         </div>
+    31:         <footer class="row"><%= render 'layouts/footer' %></footer>
+    32:     </div>
+    33: </body>
+    34: </body>
+  app/views/layouts/application.html.erb:31:in `_app_views_layouts_application_html_erb___3114612643729697456_31577340'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.6ms)
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:35:03 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_sidebar.html.erb (1.5ms)
+Completed 500 Internal Server Error in 93ms
+
+ActionView::Template::Error (Missing partial layouts/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/root/dev/GOA/app/views"
+):
+    28:         <%= yield %>
+    29:         </div>
+    30:         </div>
+    31:         <footer class="row"><%= render 'layouts/footer' %></footer>
+    32:     </div>
+    33: </body>
+    34: </body>
+  app/views/layouts/application.html.erb:31:in `_app_views_layouts_application_html_erb___3114612643729697456_31577340'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.6ms)
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:35:21 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 102ms (Views: 100.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:35:21 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:35:21 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:35:21 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:35:21 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:35:21 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:35:21 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:35:21 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:35:21 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:35:21 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:35:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 96ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:35:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:35:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:35:54 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:35:54 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:35:54 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:35:54 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:35:54 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:35:54 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:35:54 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:36:35 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_sidebar.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 101ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:36:35 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:36:35 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:36:35 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:36:35 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:36:35 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:36:35 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:36:35 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:36:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:36:36 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:37:10 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_sidebar.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 103ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:37:10 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:37:10 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:37:10 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:37:10 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:37:10 +0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:37:11 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:37:11 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:37:11 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:37:11 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:43:34 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_sidebar.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 222ms (Views: 218.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:43:35 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:43:35 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:43:35 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:43:35 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:43:35 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:43:35 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:43:35 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:43:35 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:43:35 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:44:39 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_sidebar.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 185ms (Views: 181.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:44:40 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:44:40 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:44:40 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:44:40 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:44:40 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:44:40 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:44:40 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:44:40 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:44:40 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:45:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_sidebar.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 94ms (Views: 91.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:45:54 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:45:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:45:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:45:54 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:45:54 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:45:54 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:45:54 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:45:54 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:45:54 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:46:11 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_sidebar.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 188ms (Views: 185.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 192.168.169.1 at 2014-09-04 17:46:11 +0200
+
+
+Started GET "/assets/font-awesome.css?body=1" for 192.168.169.1 at 2014-09-04 17:46:11 +0200
+
+
+Started GET "/assets/application.css?body=1" for 192.168.169.1 at 2014-09-04 17:46:11 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.169.1 at 2014-09-04 17:46:11 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.169.1 at 2014-09-04 17:46:11 +0200
+
+
+Started GET "/assets/home.css?body=1" for 192.168.169.1 at 2014-09-04 17:46:11 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.168.169.1 at 2014-09-04 17:46:11 +0200
+
+
+Started GET "/assets/home.js?body=1" for 192.168.169.1 at 2014-09-04 17:46:11 +0200
+
+
+Started GET "/assets/application.js?body=1" for 192.168.169.1 at 2014-09-04 17:46:11 +0200
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:47:29 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_sidebar.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 106ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:47:29 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_sidebar.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 92ms (Views: 90.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.169.1 at 2014-09-04 17:47:31 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_sidebar.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 94ms (Views: 92.2ms | ActiveRecord: 0.0ms)
