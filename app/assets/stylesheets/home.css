@@ -12,13 +12,13 @@ h1#title
 #right-box
 			{
 				float: left;
-				width: 150px;
+				width: 200px;
 				margin-top: 50px;
 			}
 #left-box
 			{
 				float: left;
-				width: 600px;
+				width: 550px;
 				margin-top: 50px;
 				text-align: left;
 			}
