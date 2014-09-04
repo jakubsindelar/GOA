@@ -46,4 +46,3 @@ gem 'capistrano', group: :development
 gem 'capistrano-rails', group: :development
 gem 'capistrano-rvm', group: :development
 gem 'bootstrap-glyphicons'
-
