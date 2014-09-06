@@ -1,24 +1,24 @@
 <h1>Přehled předmětů</h1>
 
-<table>
+<table id= "pubs" class="table table-bordered" style="max-width:80%; color:white">
   <thead>
     <tr>
-      <th>Předmět</th>
-      <th>Vyučující</th>
-      <th>Učebna</th>
-      <th colspan="3"></th>
+      <th class="col-md-3">Předmět</th>
+      <th class="col-md-3">Vyučující</th>
+      <th class="col-md-3">Učebna</th>
+      <th class="col-md-3" colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
     <% @subjects.each do |subject| %>
       <tr>
-        <td><%= subject.name %></td>
-        <td><%= "#{subject.teacher.name} #{subject.teacher.surname}" %></td>
-        <td><%= subject.classroom %></td>
-        <td><%= link_to 'Zobrazit', subject %></td>
-        <td><%= link_to 'Editovat', edit_subject_path(subject) %></td>
-        <td><%= link_to 'Smazat', subject, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
+        <td class="col-md-3"><%= subject.name %></td>
+        <td class="col-md-3"><%= "#{subject.teacher.name} #{subject.teacher.surname}" %></td>
+        <td class="col-md-3"><%= subject.classroom %></td>
+        <td class="col-md-1"><%= link_to 'Zobrazit', subject %></td>
+        <td class="col-md-1"><%= link_to 'Editovat', edit_subject_path(subject) %></td>
+        <td class="col-md-1"><%= link_to 'Smazat', subject, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
       </tr>
     <% end %>
   </tbody>
