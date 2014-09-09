@@ -1,12 +1,12 @@
-<h1>Listing tests</h1>
+<h1>Seznam testů</h1>
 
 <table id= "pubs" class="table table-bordered" style="max-width:80%; color:white">
   <thead>
     <tr>
-      <th class="col-md-3">Name</th>
-      <th class="col-md-3">Subject</th>
-      <th class="col-md-3">Start date</th>
-      <th class="col-md-3" colspan="3"></th>
+      <th class="col-md-3">Název testu</th>
+      <th class="col-md-3">Předmět</th>
+      <th class="col-md-3">Datum testu</th>
+      <th class="col-md-3" colspan="3">Možnosti</th>
     </tr>
   </thead>
 
@@ -16,9 +16,9 @@
         <td class="col-md-3"><%= test.name %></td>
         <td class="col-md-3"><%= test.subject.name %></td>
         <td class="col-md-3"><%= test.start_date %></td>
-        <td class="col-md-1"><%= link_to 'Show', test %></td>
-        <td class="col-md-1"><%= link_to 'Edit', edit_test_path(test) %></td>
-        <td class="col-md-1"><%= link_to 'Destroy', test, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td class="col-md-1"><%= link_to 'Zobrazit', test %></td>
+        <td class="col-md-1"><%= link_to 'Upravit', edit_test_path(test) %></td>
+        <td class="col-md-1"><%= link_to 'Smazat', test, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Test', new_test_path %>
+<%= link_to 'Přidat test', new_test_path %>

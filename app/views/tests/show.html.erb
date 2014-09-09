@@ -1,24 +1,24 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong>Název testu:</strong>
   <%= @test.name %>
 </p>
 
 <p>
-  <strong>Subject:</strong>
+  <strong>Předmět:</strong>
   <%= @test.subject_id %>
 </p>
 
 <p>
-  <strong>Start date:</strong>
+  <strong>Datum testu:</strong>
   <%= @test.start_date %>
 </p>
 
 <p>
-  <strong>Note:</strong>
+  <strong>Poznámka:</strong>
   <%= @test.note %>
 </p>
 
-<%= link_to 'Edit', edit_test_path(@test) %> |
-<%= link_to 'Back', tests_path %>
+<%= link_to 'Upravit', edit_test_path(@test) %> |
+<%= link_to 'Zpět', tests_path %>
