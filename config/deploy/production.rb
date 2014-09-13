@@ -8,6 +8,10 @@ set :application, 'web'
 set :repo_url, 'git@github.com:jakubsindelar/GOA.git'
 
 set :branch, "master"
+<<<<<<< HEAD
 set :deploy_to, '/home/fanatik/dev/GOA_TEST'
+=======
+set :deploy_to, '/home/fanatik/www/it-teamoa.eu/www'
+>>>>>>> development
 
 server 'heroesofmemory.eu', user: 'fanatik', roles: %w{web app}

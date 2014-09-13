@@ -1,24 +1,36 @@
 <p id="notice"><%= notice %></p>
+<style>
+.column {text-align: center; font-size: 12pt;}
+</style>
+<table id= "pubs" class="table table-bordered" style="width:350px; max-width:350px; color:white;margin: 0 auto;table-layout:fixed;word-wrap:break-word;">
+	<tr>
+		<td class="column"><strong>Název testu</strong></td>
+	</tr>
 
-<p>
-  <strong>Name:</strong>
-  <%= @test.name %>
-</p>
+	<tr>
+		<td><%= @test.name %></td>
+	</tr>
+	<tr>
+		<td class="column"><strong>Předmět</strong></td>
+	</tr>
+	<tr>
+		<td><%= @test.subject.name %></td>
+	</tr>
 
-<p>
-  <strong>Subject:</strong>
-  <%= @test.subject_id %>
-</p>
+	<tr>
+		<td class="column"><strong>Datum testu</strong></td>
+	</tr>
+	<tr>
+		<td><%= @test.start_date %></td>
+	</tr>
 
-<p>
-  <strong>Start date:</strong>
-  <%= @test.start_date %>
-</p>
+	<tr>
+		<td class="column"><strong>Poznámka</strong></td>
+	</tr>
+	<tr>
+		<td><%= @test.note %></td>
+	</tr>
+	</table>
 
-<p>
-  <strong>Note:</strong>
-  <%= @test.note %>
-</p>
-
-<%= link_to 'Edit', edit_test_path(@test) %> |
-<%= link_to 'Back', tests_path %>
+<%= link_to 'Upravit', edit_test_path(@test) %> |
+<%= link_to 'Zpět', tests_path %>
