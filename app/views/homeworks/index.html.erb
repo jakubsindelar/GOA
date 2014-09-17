@@ -1,13 +1,12 @@
 <h1>Listing homeworks</h1>
 
-<table>
+<table class="table table-bordered" style="max-width:80%; color:white">
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Subject</th>
-      <th>Date</th>
-      <th>Note</th>
-      <th colspan="3"></th>
+      <th>Název úkolu</th>
+      <th>Popis úkolu</th>
+      <th>Dtum odevzdání</th>
+      <th colspan="3">Možnosti</th>
     </tr>
   </thead>
 
@@ -17,10 +16,9 @@
         <td><%= homework.name %></td>
         <td><%= homework.subject_id %></td>
         <td><%= homework.date %></td>
-        <td><%= homework.note %></td>
-        <td><%= link_to 'Show', homework %></td>
-        <td><%= link_to 'Edit', edit_homework_path(homework) %></td>
-        <td><%= link_to 'Destroy', homework, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Zobrazit', homework %></td>
+        <td><%= link_to 'Upravit', edit_homework_path(homework) %></td>
+        <td><%= link_to 'Smazat', homework, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Homework', new_homework_path %>
+<%= link_to 'Přidat nový úkol', new_homework_path %>
