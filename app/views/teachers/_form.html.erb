@@ -21,7 +21,7 @@
   </div>
   <div class="field">
     <%= f.label :title, "Titul" %><br>
-    <%= f.text_field :title %>
+    <%= f.select :title, options_for_select([["Mgr.", "Mgr."], ["Ing.", "Ing."], ["Bc.", "Bc."]]) %>
   </div>
   <div class="actions">
     <%= f.submit "Odeslat" %>
