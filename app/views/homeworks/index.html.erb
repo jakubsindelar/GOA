@@ -14,7 +14,7 @@
     <% @homeworks.each do |homework| %>
       <tr>
         <td><%= homework.name %></td>
-        <td><%= homework.subject.name %></td>
+        <td><%= homework.subject.name %></t+d>
         <td><%= homework.date %></td>
         <td><%= link_to 'Zobrazit', homework %></td>
         <td><%= link_to 'Upravit', edit_homework_path(homework) %></td>
