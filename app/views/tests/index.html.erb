@@ -15,7 +15,7 @@
       <tr>
         <td class="col-md-3"><%= test.name %></td>
         <td class="col-md-3"><%= test.subject.name %></td>
-        <td class="col-md-3"><%= test.start_date %></td>
+        <td class="col-md-3"><%= test.start_date.strftime("%d-%m-%Y") %></td>
         <td class="col-md-1"><%= link_to 'Zobrazit', test %></td>
         <td class="col-md-1"><%= link_to 'Upravit', edit_test_path(test) %></td>
         <td class="col-md-1"><%= link_to 'Smazat', test, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
