@@ -13,9 +13,9 @@
   <tbody>
     <% @homeworks.each do |homework| %>
       <tr>
-        <td><%= homework.name %></td>
-        <td><%= homework.subject.name %></t+d>
-        <td><%= homework.date %></td>
+        <td><%= homework.name if homework.name.present? %></td>
+        <td><%= homework.subject.name if homework.subject.name.present? %></td>
+        <td><%= homework.date if homework.date.present? %></td>
         <td><%= link_to 'Zobrazit', homework %></td>
         <td><%= link_to 'Upravit', edit_homework_path(homework) %></td>
         <td><%= link_to 'Smazat', homework, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'Přidat úkol', new_homework_path %>
+<%= link_to 'Přidat nový', new_homework_path %>
