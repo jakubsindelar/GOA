@@ -6,7 +6,7 @@
 </p>
 
 <p>
-  <strong>Učitel:</strong>
+  <strong>Vyučující:</strong>
   <%= "#{@subject.teacher.name} #{@subject.teacher.surname}" %>
 </p>
 
@@ -15,5 +15,5 @@
   <%= @subject.classroom %>
 </p>
 
-<%= link_to 'Editovat', edit_subject_path(@subject) %> |
+<%= link_to 'Upravit', edit_subject_path(@subject) %> |
 <%= link_to 'Zpět', subjects_path %>

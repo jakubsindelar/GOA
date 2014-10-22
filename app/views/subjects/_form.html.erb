@@ -16,7 +16,7 @@
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :teacher_id, "Jméno vyučujícího" %><br>
+    <%= f.label :teacher_id, "Vyučující" %><br>
     <%= f.select :teacher_id, options_for_select(Teacher.all.collect{|teacher| ["#{teacher.name} #{teacher.surname}", teacher.id]}, @subject.teacher_id), include_blank: true %>
   </div>
   <div class="field">
