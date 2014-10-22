@@ -21,7 +21,7 @@
 		<td class="column"><strong>Datum testu</strong></td>
 	</tr>
 	<tr>
-		<td><%= @test.start_date %></td>
+		<td><%= @test.start_date.strftime("%d-%m-%Y") %></td>
 	</tr>
 
 	<tr>
