@@ -1,6 +1,11 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Titul před:</strong>
+  <%= @teacher.title %>
+</p>
+
+<p>
   <strong>Jméno:</strong>
   <%= @teacher.name %>
 </p>
@@ -8,11 +13,6 @@
 <p>
   <strong>Příjmení:</strong>
   <%= @teacher.surname %>
-</p>
-
-<p>
-  <strong>Titul:</strong>
-  <%= @teacher.title %>
 </p>
 
 <%= link_to 'Editovat', edit_teacher_path(@teacher) %> |
