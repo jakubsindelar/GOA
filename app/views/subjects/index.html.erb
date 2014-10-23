@@ -1,4 +1,4 @@
-<h1>Přehled předmětů</h1>
+<h1>Přehled vyučovaných předmětů</h1>
 
 <table id= "pubs" class="table table-bordered" style="max-width:80%; color:white">
   <thead>
@@ -17,7 +17,7 @@
         <td class="col-md-3"><%= "#{subject.teacher.name} #{subject.teacher.surname}" %></td>
         <td class="col-md-3"><%= subject.classroom %></td>
         <td class="col-md-1"><%= link_to 'Zobrazit', subject %></td>
-        <td class="col-md-1"><%= link_to 'Editovat', edit_subject_path(subject) %></td>
+        <td class="col-md-1"><%= link_to 'Upravit', edit_subject_path(subject) %></td>
         <td class="col-md-1"><%= link_to 'Smazat', subject, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
       </tr>
     <% end %>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'Přidat nový předmět', new_subject_path %>
+<%= link_to 'Přidat předmět', new_subject_path %>

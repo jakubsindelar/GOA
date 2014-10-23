@@ -3,9 +3,9 @@
 <table id= "pubs" class="table table-bordered" style="max-width:80%; color:white">
   <thead>
     <tr>
-      <th class="col-md-3">Název testu</th>
+      <th class="col-md-3">Test</th>
       <th class="col-md-3">Předmět</th>
-      <th class="col-md-3">Datum testu</th>
+      <th class="col-md-3">Datum</th>
       <th class="col-md-3" colspan="3">Možnosti</th>
     </tr>
   </thead>
@@ -15,7 +15,7 @@
       <tr>
         <td class="col-md-3"><%= test.name %></td>
         <td class="col-md-3"><%= test.subject.name %></td>
-        <td class="col-md-3"><%= test.start_date %></td>
+        <td class="col-md-3"><%= test.start_date.strftime("%d-%m-%Y") %></td>
         <td class="col-md-1"><%= link_to 'Zobrazit', test %></td>
         <td class="col-md-1"><%= link_to 'Upravit', edit_test_path(test) %></td>
         <td class="col-md-1"><%= link_to 'Smazat', test, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>

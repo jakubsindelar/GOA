@@ -4,14 +4,14 @@
 </style>
 <table id= "pubs" class="table table-bordered" style="width:350px; max-width:350px; color:white;margin: 0 auto;table-layout:fixed;word-wrap:break-word;">
 	<tr>
-		<td class="column"><strong>Název testu</strong></td>
+		<td class="column"><strong>Test</strong></td>
 	</tr>
 
 	<tr>
 		<td><%= @test.name %></td>
 	</tr>
 	<tr>
-		<td class="column"><strong>Předmět</strong></td>
+		<td class="column"><strong>Ze předmětu</strong></td>
 	</tr>
 	<tr>
 		<td><%= @test.subject.name %></td>
@@ -21,7 +21,7 @@
 		<td class="column"><strong>Datum testu</strong></td>
 	</tr>
 	<tr>
-		<td><%= @test.start_date %></td>
+		<td><%= @test.start_date.strftime("%d-%m-%Y") %></td>
 	</tr>
 
 	<tr>
