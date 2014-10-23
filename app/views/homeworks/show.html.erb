@@ -9,28 +9,28 @@
 </style>
 <table id= "pubs" class="table table-bordered" style="width:350px; max-width:350px; color:white;margin: 0 auto;table-layout:fixed;word-wrap:break-word;">
 	<tr>
-		<td class="column"><strong>Název</strong></td>
+		<td class="column"><strong>Název:</strong></td>
 	</tr>
 
 	<tr>
 		<td><%= @homework.name %></td>
 	</tr>
 	<tr>
-		<td class="column"><strong>Předmět</strong></td>
+		<td class="column"><strong>Do předmětu:</strong></td>
 	</tr>
 	<tr>
 		<td><%= @homework.subject_id %></td>
 	</tr>
 
 	<tr>
-		<td class="column"><strong>Datum odevzdání</strong></td>
+		<td class="column"><strong>Datum odevzdání:</strong></td>
 	</tr>
 	<tr>
 		<td><%= @homework.date.strftime("%d-%m-%Y") %></td>
 	</tr>
 
 	<tr>
-		<td class="column"><strong>Poznámka</strong></td>
+		<td class="column"><strong>Poznámka:</strong></td>
 	</tr>
 	<tr>
 		<td><%= @homework.note %></td>
