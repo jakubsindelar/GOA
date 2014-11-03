@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :subject_id, 'Do předmětu:' %><br>
-    <%= f.text_field :subject_id %>
+    <%= f.select :subject_id, options_for_select(Subject.all.collect{|subject| ["#{subject.name}", subject.id]}, @homework.subject_id), include_blank: true %>
   </div>
   <div class="field">
     <%= f.label :date, 'Datum odevzdání:' %><br>
