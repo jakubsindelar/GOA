@@ -1,19 +1,29 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Titul před:</strong>
-  <%= @teacher.title %>
-</p>
 
-<p>
-  <strong>Jméno:</strong>
-  <%= @teacher.name %>
-</p>
+<style>
+.column {text-align: center; font-size: 12pt;}
+</style>
+<table id= "pubs" class="table table-bordered" style="width:350px; max-width:350px; color:white;margin: 0 auto;table-layout:fixed;word-wrap:break-word;">
+	<tr>
+		<td class="column"><strong>Titul před:</strong></td>
+	</tr>
 
-<p>
-  <strong>Příjmení:</strong>
-  <%= @teacher.surname %>
-</p>
-
+	<tr>
+		<td><%= @teacher.title %></td>
+	</tr>
+	<tr>
+		<td class="column"><strong>Jméno:</strong></td>
+	</tr>
+	<tr>
+		<td><%= @teacher.name %></td>
+	</tr>
+	<tr>
+		<td class="column"><strong>Příjmení:</strong></td>
+	</tr>
+	<tr>
+		<td><%= @teacher.surname %></td>
+	</tr>
+	</table>
 <%= link_to 'Upravit', edit_teacher_path(@teacher) %> |
 <%= link_to 'Smazat', teachers_path %>

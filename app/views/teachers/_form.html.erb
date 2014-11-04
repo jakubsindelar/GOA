@@ -12,18 +12,18 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :title, "Titul před:" %><br>
+    <%= f.label :title, "Titul před:",:class => 'text-field' %><br>
     <%= f.select :title, options_for_select([["Mgr.", "Mgr."], ["Ing.", "Ing."], ["Bc.", "Bc."]]) %>
   </div>
   <div class="field">
-    <%= f.label :name, "Jméno:" %><br>
+    <%= f.label :name, "Jméno:",:class => 'text-field' %><br>
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :surname, "Příjmení:" %><br>
+    <%= f.label :surname, "Příjmení:",:class => 'text-field' %><br>
     <%= f.text_field :surname %>
   </div>
   <div class="actions">
-    <%= f.submit "Uložit" %>
+    <%= f.submit "Uložit",:class => 'button-color' %>
   </div>
 <% end %>
