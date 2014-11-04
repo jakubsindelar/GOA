@@ -12,22 +12,22 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name, 'Test:' %><br>
+    <%= f.label :name, 'Test:',:class => 'text-field' %><br>
     <%= f.text_field :name ,:alt => 'Název testu' %>
   </div>
   <div class="field">
-    <%= f.label :subject_id, 'Ze předmětu:' %><br>
+    <%= f.label :subject_id, 'Ze předmětu:',:class => 'text-field' %><br>
     <%= f.select :subject_id, options_for_select(Subject.all.collect{|subject| ["#{subject.name}", subject.id]}, @test.subject_id), include_blank: true %>
   </div>
   <div class="field">
-    <%= f.label :start_date, 'Datum testu:' %><br>
+    <%= f.label :start_date, 'Datum testu:',:class => 'text-field' %><br>
     <%= f.date_select :start_date %>
   </div>
   <div class="field">
-    <%= f.label :note, 'Poznámka:' %><br>
+    <%= f.label :note, 'Poznámka:',:class => 'text-field' %><br>
     <%= f.text_field :note, :alt => 'Poznámka k testu' %>
   </div>
   <div class="actions">
-    <%= f.submit 'Uložit' %>
+    <%= f.submit 'Uložit',:class => 'button-color' %>
   </div>
 <% end %>
