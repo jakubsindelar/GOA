@@ -1,19 +1,35 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Předmět:</strong>
-  <%= @subject.name %>
-</p>
 
-<p>
-  <strong>Vyučující:</strong>
-  <%= "#{@subject.teacher.name} #{@subject.teacher.surname}" %>
-</p>
 
-<p>
-  <strong>Učebna:</strong>
-  <%= @subject.classroom %>
-</p>
+
+
+
+<style>
+.column {text-align: center; font-size: 12pt;}
+</style>
+<table id= "pubs" class="table table-bordered" style="width:350px; max-width:350px; color:white;margin: 0 auto;table-layout:fixed;word-wrap:break-word;">
+	<tr>
+		<td class="column"><strong>Předmět:</strong></td>
+	</tr>
+
+	<tr>
+		<td><%= @subject.name %></td>
+	</tr>
+	<tr>
+		<td class="column"><strong>Vyučující:</strong></td>
+	</tr>
+	<tr>
+		<td> <%= "#{@subject.teacher.name} #{@subject.teacher.surname}" %></td>
+	</tr>
+
+	<tr>
+		<td class="column"><strong>Učebna:</strong></td>
+	</tr>
+	<tr>
+		<td><%= @subject.classroom %></td>
+	</tr>
+		</table>
 
 <%= link_to 'Upravit', edit_subject_path(@subject) %> |
 <%= link_to 'Zpět', subjects_path %>
