@@ -13,19 +13,19 @@
 
   <div class="field">
     <%= f.label :name, 'Název:',:class => 'text-field' %><br>
-    <%= f.text_field :name %>
+    <%= f.text_field :name ,:alt => 'Název domácího úkolu' %>
   </div>
   <div class="field">
     <%= f.label :subject_id, 'Do předmětu:',:class => 'text-field' %><br>
-    <%= f.select :subject_id, options_for_select(Subject.all.collect{|subject| ["#{subject.name}", subject.id]}, @homework.subject_id), include_blank: true %>
+    <%= f.select :subject_id, options_for_select(Subject.all.collect{|subject| ["#{subject.name}", subject.id]}, @homework.subject_id), include_blank: true ,:alt => 'Domácí úkol do předmětu' %>
   </div>
   <div class="field">
     <%= f.label :date, 'Datum odevzdání:',:class => 'text-field' %><br>
-    <%= f.date_select :date %>
+    <%= f.date_select :date ,:alt => 'Datum odevzdání domácího úkolu' %>
   </div>
   <div class="field">
     <%= f.label :note, 'Poznámka:',:class => 'text-field' %><br>
-    <%= f.text_field :note %>
+    <%= f.text_field :note ,:alt => 'Poznámka k úkolu' %>
   </div>
   <div class="actions">
     <%= f.submit 'Uložit', :class => 'button-color' %>
