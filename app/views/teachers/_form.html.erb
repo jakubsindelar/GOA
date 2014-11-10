@@ -13,15 +13,15 @@
 
   <div class="field">
     <%= f.label :title, "Titul před:",:class => 'text-field' %><br>
-    <%= f.select :title, options_for_select([["Mgr.", "Mgr."], ["Ing.", "Ing."], ["Bc.", "Bc."]]) %>
+    <%= f.select :title, options_for_select([["Mgr.", "Mgr."], ["Ing.", "Ing."], ["Bc.", "Bc."]]) ,:alt => 'Titul před jménem' %>
   </div>
   <div class="field">
     <%= f.label :name, "Jméno:",:class => 'text-field' %><br>
-    <%= f.text_field :name %>
+    <%= f.text_field :name ,:alt => 'Jméno vyučujícího' %>
   </div>
   <div class="field">
     <%= f.label :surname, "Příjmení:",:class => 'text-field' %><br>
-    <%= f.text_field :surname %>
+    <%= f.text_field :surname ,:alt => 'Příjmení vyučujícího' %>
   </div>
   <div class="actions">
     <%= f.submit "Uložit",:class => 'button-color' %>
