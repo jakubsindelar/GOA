@@ -22,13 +22,6 @@
 	<tr>
 		<td> <%= "#{@subject.teacher.name} #{@subject.teacher.surname}" %></td>
 	</tr>
-
-	<tr>
-		<td class="column"><strong>Učebna:</strong></td>
-	</tr>
-	<tr>
-		<td><%= @subject.classroom %></td>
-	</tr>
 		</table>
 
 <%= link_to 'Upravit', edit_subject_path(@subject) %> |

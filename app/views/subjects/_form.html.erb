@@ -19,10 +19,6 @@
     <%= f.label :teacher_id, "Vyučující",:class => 'text-field' %><br>
     <%= f.select :teacher_id, options_for_select(Teacher.all.collect{|teacher| ["#{teacher.name} #{teacher.surname}", teacher.id]}, @subject.teacher_id), include_blank: true %>
   </div>
-  <div class="field">
-    <%= f.label :classroom, "Učebna",:class => 'text-field' %><br>
-    <%= f.number_field :classroom %>
-  </div>
   <div class="actions">
     <%= f.submit "Uložit",:class => 'button-color' %>
   </div>

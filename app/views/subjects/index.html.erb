@@ -3,19 +3,17 @@
 <table id= "pubs" class="table table-bordered" style="max-width:80%; color:white">
   <thead>
     <tr>
-      <th class="col-md-3">Předmět</th>
-      <th class="col-md-3">Vyučující</th>
-      <th class="col-md-3">Učebna</th>
-      <th class="col-md-3" colspan="3"></th>
+      <th class="col-md-2">Předmět</th>
+      <th class="col-md-2">Vyučující</th>
+      <th class="col-md-3" colspan="3">Možnosti</th>
     </tr>
   </thead>
 
   <tbody>
     <% @subjects.each do |subject| %>
       <tr>
-        <td class="col-md-3"><%= subject.name %></td>
-        <td class="col-md-3"><%= "#{subject.teacher.name} #{subject.teacher.surname}" %></td>
-        <td class="col-md-3"><%= subject.classroom %></td>
+        <td class="col-md-2"><%= subject.name %></td>
+        <td class="col-md-2"><%= "#{subject.teacher.name} #{subject.teacher.surname}" %></td>
         <td class="col-md-1"><%= link_to 'Zobrazit', subject %></td>
         <td class="col-md-1"><%= link_to 'Upravit', edit_subject_path(subject) %></td>
         <td class="col-md-1"><%= link_to 'Smazat', subject, method: :delete, data: { confirm: 'Opravdu chcete pokračovat?' } %></td>
