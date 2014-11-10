@@ -36,5 +36,6 @@
 		<td><%= @homework.note %></td>
 	</tr>
 	</table>
+<%= link_to 'Přidat další', new_homework_path(@homework) %> |
 <%= link_to 'Upravit', edit_homework_path(@homework) %> |
 <%= link_to 'Zpět', homeworks_path %>

@@ -25,5 +25,7 @@
 		<td><%= @teacher.surname %></td>
 	</tr>
 	</table>
+
+<%= link_to 'Přidat další', new_teacher_path(@teacher) %> |
 <%= link_to 'Upravit', edit_teacher_path(@teacher) %> |
 <%= link_to 'Smazat', teachers_path %>
